@@ -3,7 +3,7 @@ name: douban
 on:
   push:
     branches:
-      - main
+      - master
   watch:
     types: [started]
 
