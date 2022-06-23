@@ -29,14 +29,6 @@ jobs:
         id: 171320005
         type: book
         format: csv
-        dir: ./data/douban
-    
-    - name: game
-      uses: lizheming/doumark-action@master
-      with:
-        id: 171320005
-        type: game
-        format: csv
         dir: ./data/douban  
         
     - name: Commit
