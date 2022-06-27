@@ -1,9 +1,8 @@
 # .github/workflows/douban.yml
 name: douban
-on:
-  push:
-    branches:
-      - master
+on: 
+  schedule:
+  - cron: "0 4  * *"
   watch:
     types: [started]
 
