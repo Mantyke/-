@@ -3,7 +3,7 @@ name: douban
 on:
   push:
     branches:
-      - master    //当master分支更新时，触发Workflow执行
+      - master
   watch:
     types: [started]
 
