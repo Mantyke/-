@@ -1,8 +1,9 @@
 # .github/workflows/douban.yml
 name: douban
-on: 
-  schedule:
-  - cron: "0 4  * *"
+on:
+  push:
+    branches:
+      - master    //当master分支更新时，触发Workflow执行
   watch:
     types: [started]
 
